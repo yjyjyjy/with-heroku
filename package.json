@@ -2,7 +2,7 @@
   "name": "razzle-examples-with-heroku",
   "version": "4.2.7",
   "license": "MIT",
-    "engines": {
+  "engines": {
     "node": "16.x"
   },
   "scripts": {
@@ -19,14 +19,13 @@
     "react-dom": "^17.0.1"
   },
   "devDependencies": {
-    "razzle": "4.2.7",
-    "razzle-dev-utils": "4.2.7",
-    "mini-css-extract-plugin": "^0.9.0",
-    "html-webpack-plugin": "^4.5.2",
-    "webpack": "^4.44.1",
-    "babel-preset-razzle": "4.2.7",
-    "webpack-dev-server": "^3.11.2"
+    "babel-preset-razzle": "^4.2.7",
+    "html-webpack-plugin": "5.2.0",
+    "mini-css-extract-plugin": "0.9.0",
+    "postcss": "8.2.4",
+    "razzle": "^4.2.7",
+    "razzle-dev-utils": "^4.2.7",
+    "webpack": "5.24.0",
+    "webpack-dev-server": "3.11.0"
   }
 }
-
-
