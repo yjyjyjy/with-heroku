@@ -2,6 +2,9 @@
   "name": "razzle-examples-with-heroku",
   "version": "4.2.7",
   "license": "MIT",
+    "engines": {
+    "node": "16.x"
+  },
   "scripts": {
     "start": "razzle start",
     "build": "razzle build",
@@ -25,3 +28,5 @@
     "webpack-dev-server": "^3.11.2"
   }
 }
+
+
